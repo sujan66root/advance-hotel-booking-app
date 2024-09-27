@@ -14,9 +14,9 @@ public interface IUserService {
        getUserById // user
        getProfile //
        */
-    ResponseDto Register(Users user);
+    ResponseDto register(Users user);
 
-    ResponseDto Login(LoginReqDto loginReqDto);
+    ResponseDto login(LoginReqDto loginReqDto);
 
     ResponseDto getALlUsers();
 
