@@ -6,12 +6,15 @@ This project is a full-stack web application built using Spring Boot for the bac
 
 - User registration and login (JWT authentication).
 - Browse and search for available rooms.
+- Admin panel for managing rooms, bookings, and users.
+- Real-time notifications and updates
+
+## Future Updates in Coming days
+
 - Real-time room availability (Kafka integration).
 - Book rooms with payment integration.
-- Admin panel for managing rooms, bookings, and users.
 - Dynamic pricing algorithm for rooms.
 - Analytics dashboard for hotel administrators.
-- Real-time notifications and updates using Kafka.
 
 ## Technologies Used
 
@@ -21,7 +24,7 @@ This project is a full-stack web application built using Spring Boot for the bac
 - Spring Boot
 - Spring Security (JWT)
 - Spring Data JPA (Hibernate)
-- Apache Kafka (Real-time updates)
+- Apache Kafka (Real-time updates) \*\* in process
 - MySQL Database
 - REST API
 - Maven
@@ -33,7 +36,6 @@ This project is a full-stack web application built using Spring Boot for the bac
 - Redux (state management)
 - Tailwind CSS (for styling)
 - React Router (for navigation)
-- Payment integration (Stripe or PayPal)
 
 ## Getting Started
 
@@ -44,7 +46,6 @@ This project is a full-stack web application built using Spring Boot for the bac
 - Java 17+
 - Maven
 - MySQL
-- Apache Kafka (for real-time processing)
 
 #### Frontend
 
