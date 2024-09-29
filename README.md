@@ -8,6 +8,7 @@ This project is a full-stack web application built using Spring Boot for the bac
 - Browse and search for available rooms.
 - Admin panel for managing rooms, bookings, and users.
 - Real-time notifications and updates
+- Saved Images in Cloudinary
 
 ## Future Updates in Coming days
 
@@ -28,6 +29,7 @@ This project is a full-stack web application built using Spring Boot for the bac
 - MySQL Database
 - REST API
 - Maven
+- Cloudinary for object image storage
 
 ### Frontend (React)
 
