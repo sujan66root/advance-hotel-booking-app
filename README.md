@@ -4,7 +4,7 @@ This project is a full-stack web application built using Spring Boot for the bac
 
 ## Project Demo
 
-<iframe width="560" height="315" src="https://drive.google.com/file/d/1_0YRvnvT8U7CQO-xbA5UjNSgUxknAunW/view?usp=sharing" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://drive.google.com/uc?id=1_0YRvnvT8U7CQO-xbA5UjNSgUxknAunW" frameborder="0" allowfullscreen></iframe>
 
 ## Features
 
