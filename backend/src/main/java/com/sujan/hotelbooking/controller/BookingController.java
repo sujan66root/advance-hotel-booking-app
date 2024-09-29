@@ -24,7 +24,6 @@ public class BookingController {
     public ResponseEntity<ResponseDto> saveBookings(@PathVariable Long roomId,
                                                     @PathVariable Long userId,
                                                     @RequestBody Booking bookingRequest) {
-
         ResponseDto response = bookingService.saveBooking(bookingRequest, roomId, userId);
         return ResponseEntity.status(response.getStatusCode()).body(response);
     }

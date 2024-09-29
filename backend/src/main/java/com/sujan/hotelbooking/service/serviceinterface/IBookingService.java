@@ -9,7 +9,7 @@ save Booking, findBookingByConfirmationCode
 get all booking, cancel booking
 
  */
-    ResponseDto saveBooking(Booking booking, Long userId, Long roomId);
+    ResponseDto saveBooking(Booking booking, Long roomId, Long userId);
 
     ResponseDto getAllBooking();
 

@@ -38,7 +38,7 @@ public class BookingService implements IBookingService {
      * - Generates a unique confirmation code for the booking.
      */
 
-    public ResponseDto saveBooking(Booking booking, Long userId, Long roomId) {
+    public ResponseDto saveBooking(Booking booking, Long roomId,Long userId) {
         ResponseDto responseObj = new ResponseDto();
         try {
             if (booking.getCheckOutDate().isBefore(booking.getCheckInDate())) {
@@ -46,6 +46,14 @@ public class BookingService implements IBookingService {
             }
             Optional<Users> usersOptional = userRepository.findById(userId);
             Optional<Room> roomOptional = roomRepository.findById(roomId);
+
+            // Check if user and room exist
+            if (usersOptional.isEmpty()) {
+                throw new RuntimeException("User with ID " + userId + " not found.");
+            }
+            if (roomOptional.isEmpty()) {
+                throw new RuntimeException("Room with ID " + roomId + " not found.");
+            }
 
             List<Booking> existingBookings = roomOptional.get().getBookings();
 
