@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* CSS  */
 * {
     margin: 0;
     font-family: 'Heebo';
