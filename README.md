@@ -1,6 +1,16 @@
-# Advanced Hotel Booking App
+# Advanced Hotel Booking App with Kafka Integration
 
 This project is a full-stack web application built using Spring Boot for the backend and React for the frontend. It aims to provide users with a seamless hotel booking experience, while offering advanced features like real-time room availability, dynamic pricing, and Kafka-based real-time updates.
+
+![Demo](./frontend/src/assets/hotel-booking.mp4)
+
+![Home](./frontend/src/assets/home.png)
+
+![Rooms](./frontend/src/assets/rooms.png)
+
+![Book](./frontend/src/assets/rooms.png)
+
+![Bookings](./frontend/src/assets/bookings.png)
 
 ## Features
 
