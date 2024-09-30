@@ -6,7 +6,7 @@ This project is a full-stack web application built using Spring Boot for the bac
 
 ![Rooms](./frontend/src/assets/rooms.png)
 
-![Book](./frontend/src/assets/rooms.png)
+![Book](./frontend/src/assets/book.png)
 
 ![Bookings](./frontend/src/assets/bookings.png)
 
