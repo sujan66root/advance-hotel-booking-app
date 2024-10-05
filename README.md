@@ -2,6 +2,8 @@
 
 This project is a full-stack web application built using Spring Boot for the backend and React for the frontend. It aims to provide users with a seamless hotel booking experience, while offering advanced features like real-time room availability, dynamic pricing, and Kafka-based real-time updates.
 
+Demo: https://youtu.be/gZAnFpKBhD4
+
 ![Home](./frontend/src/assets/home.png)
 
 ![Rooms](./frontend/src/assets/rooms.png)
